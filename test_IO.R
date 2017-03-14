@@ -1,5 +1,6 @@
 library(BankscopeR)
 
+dt <- read_folder("../../data/raw_data/Bankscope", verbose = T)
 
 save_data(dt, file = "myexport.zip", verbose = T) # roughly 19.4 MB
 save_data(dt, file = "myexport.RDS", verbose = T) # roughly 19.6 MB
