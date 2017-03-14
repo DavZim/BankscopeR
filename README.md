@@ -3,7 +3,7 @@ Load Bankscope Data to R
 
 # Install
 
-To install BankscopeR use ``devtools::install_github("DavZim/BankscopeR")`.
+To install BankscopeR use `devtools::install_github("DavZim/BankscopeR")`.
 
 A minimum working example is to load multiple Excel-exports using the `load_folder`-function.
 
